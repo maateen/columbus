@@ -1,0 +1,11 @@
+consul:
+  enabled: true
+  hostname: "127.0.0.1"
+  port: "8500"
+node:
+  hostname: "127.0.0.1"
+  port: "8500"
+  scheme: "https"
+  weight: 1
+traefik:
+  enabled: true
